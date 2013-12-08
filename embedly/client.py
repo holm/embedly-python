@@ -30,6 +30,8 @@ class Embedly(object):
         :type user_agent: str
         :param key: Embedly Pro key
         :type key: str
+        :param timeout: The timeout to use for HTTP requests
+        :type timeout: int
 
         :returns: None
         """
